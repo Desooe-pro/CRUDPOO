@@ -52,5 +52,4 @@ class Produit {
         $stmt = $this -> pdo -> query("DELETE FROM article WHERE Id_Article = $id");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
-
 }

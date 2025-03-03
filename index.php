@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
             <th>ID</th>
             <th>Nom</th>
             <th>Prix</th>
-            <th>Description</th>
+            <th>Stock</th>
             <th>Modification</th>
             <th>Suppression</th>
         </tr>
